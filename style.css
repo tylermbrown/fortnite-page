@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 32px;
+    height: 100vh;
+    padding: 32px;
+}
+
+
+.badbreath {
+    height: 100%;
+    background-color: brown;
+    border-radius: 60px;
+    background-image: url("https://cdn2.unrealengine.com/Fortnite%2Fblog%2FFortniteBlockbuster%2FBR04_1_1_FeaturedHeaderfortniteblockbuster-1920x480-7e0ded3c73457a47982b28e9a711dad8b72734d7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-1 {
+    background-image: url("https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/5b9e68cb4fa51a6452018958/1537108186713/gt-fortnite-00.jpg?format=2500w");
+}
+
+.image-3 {
+    background-image: url("https://pmcvariety.files.wordpress.com/2018/06/fortnite-season4-week7.jpg?w=1000&h=563&crop=1");
+}
+
+.image-4 {
+    background-image: url("https://cdn-images-1.medium.com/max/1600/1*wznEkoqJXdMwkkyhHReHaA.jpeg");
+}
+
+/* Add the fortnite logo */
+.logo {
+    background-image: url("https://toppng.com/public/uploads/preview/fortnite-logo-black-and-white-11530963293ygopexf22l.png");
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -45,12 +45,48 @@ body {
 /* Add the fortnite logo */
 .logo {
     background-image: url("https://toppng.com/public/uploads/preview/fortnite-logo-black-and-white-11530963293ygopexf22l.png");
-    width: 400px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
     background-size: cover;
     background-position: center;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+}
+
+.logo--expanded {
+    width: 600px;
+    height: 400px;
+}
+
+.expanded {
+    width: 500px;
+    height: 500px;
+}
+
+.videoplayer {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.85);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.videoplayer--active {
+    display: flex;
+}
+
+.video {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
